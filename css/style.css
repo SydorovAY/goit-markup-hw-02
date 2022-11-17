@@ -1,3 +1,49 @@
+/*Overlays Shadows Headings color:#2E2F42; */
+/* prymary_brand color: #4D5AE5; */
+/* Valid fields Success messages color: #31D0AA; */
+/* Helper text Deemphasized text color:#8E8F99; */
+/* Accent color Hairlines Subtle backgrounds color:#E7E9FC */
+/* Light mode backgrounds Light mode Dialogs/alerts color:#F4F4FD; */
 body {
-	color:#2E2F42;
+	background-color: #ffffff;
+	color: #434455;
+	font-family: 'Roboto';
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: 2%;
+}
+
+ul {
+	list-style: none;
+}
+
+/* site nav */
+.logo {
+	color: #2e2f42;
+}
+
+.prymary-brand {
+	color: #4d5ae5;
+}
+
+ .nav-link{
+	color: #2e2f42;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+	color: #434455;
+}
+
+.nav-link:active {
+	color: #4D5AE5;
+}
+
+.link-mail {
+	color: #434455;
+}
+
+.link-tel {
+	color: #434455;
 }
