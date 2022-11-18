@@ -8,26 +8,31 @@ body {
 	background-color: #ffffff;
 	color: #434455;
 	font-family: 'Roboto';
-	font-weight: normal;
+	font-style: normal;
+	font-weight: 400;
 	font-size: 16px;
 	line-height: 24px;
-	letter-spacing: 2%;
 }
-
-ul {
+ /* header */
+.list {
 	list-style: none;
 }
 
 /* site nav */
 .logo {
 	color: #2e2f42;
+	font-family: 'Raleway';
+	font-weight: 800;
+	font-size: 18px;
+
 }
 
 .prymary-brand {
 	color: #4d5ae5;
 }
 
- .nav-link{
+.nav-list .nav-link {
+	font-weight: 600;
 	color: #2e2f42;
 }
 
@@ -46,4 +51,31 @@ ul {
 
 .link-tel {
 	color: #434455;
+}
+
+.hero {
+	background-color: #2E2F42;
+}
+
+.hero-tittle {
+	color: #FFFFFF;
+	font-size: 56px;
+	line-height: 60px;
+}
+
+.button-order {
+	background-color: #4D5AE5;
+	color: #FFFFFF;
+	font-size: 16px;
+		line-height: 19px;
+}
+.button-order:hover{
+	background-color:#4D5AE5;
+}
+
+.button-order:active{
+	background-color:#404BBF;
+	}
+.tittle {
+	color: #2e2f42;
 }
