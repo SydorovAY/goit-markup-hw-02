@@ -4,23 +4,37 @@
 /* Helper text Deemphasized text color:#8E8F99; */
 /* Accent color Hairlines Subtle backgrounds color:#E7E9FC */
 /* Light mode backgrounds Light mode Dialogs/alerts color:#F4F4FD; */
+
+/* normalize.css */
+@import url('./normalize.css');
+
+/* шрифти */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap');
+
+/* кольори */
+:root {
+	--prymary-text-color: #434455;
+	--Headings-color: #2E2F42;
+}
+
 body {
 	background-color: #ffffff;
-	color: #434455;
+	color: var(--prymary-text-color);
 	font-family: 'Roboto';
 	font-style: normal;
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 24px;
 }
- /* header */
+
+/* header */
 .list {
 	list-style: none;
 }
 
 /* site nav */
 .logo {
-	color: #2e2f42;
+	color: #2E2F42;
 	font-family: 'Raleway';
 	font-weight: 800;
 	font-size: 18px;
@@ -28,12 +42,12 @@ body {
 }
 
 .prymary-brand {
-	color: #4d5ae5;
+	color: #4D5AE5;
 }
 
 .nav-list .nav-link {
 	font-weight: 600;
-	color: #2e2f42;
+	color: var(--Headings-color);
 }
 
 .nav-link:hover,
@@ -48,7 +62,6 @@ body {
 .link-mail {
 	color: #434455;
 }
-
 .link-tel {
 	color: #434455;
 }
@@ -67,15 +80,30 @@ body {
 	background-color: #4D5AE5;
 	color: #FFFFFF;
 	font-size: 16px;
-		line-height: 19px;
-}
-.button-order:hover{
-	background-color:#4D5AE5;
+	line-height: 19px;
 }
 
-.button-order:active{
-	background-color:#404BBF;
-	}
+.button-order:hover {
+	background-color: #4D5AE5;
+}
+
+.button-order:active {
+	background-color: #404BBF;
+}
+
 .tittle {
-	color: #2e2f42;
+	color: var(--Headings-color);
+}
+
+
+
+
+
+
+/* portfolio */
+
+
+
+.paymen-img {
+	background-color: #4d5ae5;
 }
