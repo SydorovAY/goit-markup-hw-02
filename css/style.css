@@ -12,7 +12,7 @@
 /* шрифти */
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap");
 
-/* кольори */
+/* colors */
 :root {
   --Focused-link-color: #4d5ae5;
   --button-active-color: #404bbf;
@@ -114,6 +114,9 @@ body {
   color: var(--Headings-color);
 }
 
+/* section feature */
+/* section specialization */
+/* section our team */
 .section-team {
   background-color: var(--Subtle-backgrounds-color);
 }
@@ -131,7 +134,7 @@ body {
   color: var(--Subtle-backgrounds-color);
 }
 
-/* portfolio */
+/* portfolio style */
 
 .paymen-img {
   background-color: var(--Focused-link-color);
