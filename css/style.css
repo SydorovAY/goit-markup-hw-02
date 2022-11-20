@@ -32,7 +32,8 @@ body {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
+
 }
 
 /* header */
@@ -136,17 +137,23 @@ body {
 
 /* portfolio style */
 
-.paymen-img {
+.descriptions {
   background-color: var(--Focused-link-color);
+  color: #f4f4fd;
 }
 
-.butoon-servise {
+.butoon-filter {
   background-color: var(--backgrounds-Light-color);
   color: var(--Focused-link-color);
 }
 
-.butoon-servise:hover,
-.butoon-servise:focus {
+.butoon-filter:hover,
+.butoon-filter:focus {
   background-color: var(--Focused-link-color);
   color: var(--bg-white-color);
 }
+
+.text {
+	color: var(--Body-text-color);
+}
+
