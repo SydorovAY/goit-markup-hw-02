@@ -28,7 +28,7 @@
 body {
   background-color: var(--bg-white-color);
   color: var(--Body-text-color);
-  font-family: "Roboto";
+  font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -137,7 +137,7 @@ body {
 
 /* portfolio style */
 
-.descriptions {
+ .descriptions {
   background-color: var(--Focused-link-color);
   color: #f4f4fd;
 }
