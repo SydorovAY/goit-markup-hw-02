@@ -41,7 +41,6 @@ body {
 }
 
 /* header */
-/* site nav */
 
 .logo {
   color: var(--Headings-color);
@@ -103,6 +102,7 @@ body {
   color: var(--bg-white-color);
   line-height: 1.19;
   letter-spacing: 0.04em;
+  cursor: pointer;
 }
 
 .button-order:hover,
@@ -169,6 +169,7 @@ body {
   color: var(--Focused-link-color);
   font-weight: 600;
   letter-spacing: 0.04em;
+  cursor: pointer;
 }
 
 .butoon-filter:hover,
