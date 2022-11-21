@@ -164,11 +164,6 @@ body {
 
 /* portfolio style */
 
-.descriptions {
-  background-color: var(--Focused-link-color);
-  color: var(--backgrounds-Light-color);
-}
-
 .butoon-filter {
   background-color: var(--backgrounds-Light-color);
   color: var(--Focused-link-color);
