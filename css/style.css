@@ -33,20 +33,24 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-
+  letter-spacing: 0.02em;
 }
 
-/* header */
 .list {
   list-style: none;
 }
 
+/* header */
 /* site nav */
+
 .logo {
   color: var(--Headings-color);
   font-family: "Raleway";
   font-weight: 800;
   font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
 .prymary-brand {
@@ -80,24 +84,25 @@ body {
 .contacts-link:focus {
   color: var(--Focused-link-color);
 }
+
 /* hero */
 
 .hero {
   background-color: var(--Headings-color);
 }
 
-.hero-tittle {
+.hero .title {
   color: var(--bg-white-color);
+  font-weight: 600;
   font-size: 56px;
-  line-height: 60px;
+  line-height: 1.07;
 }
 
 .button-order {
   background-color: var(--Focused-link-color);
   color: var(--bg-white-color);
-  font-size: 16px;
-  line-height: 19px;
-  border: none;
+  line-height: 1.19;
+  letter-spacing: 0.04em;
 }
 
 .button-order:hover,
@@ -111,14 +116,30 @@ body {
 
 /* sections */
 
-.tittle {
+.title {
   color: var(--Headings-color);
 }
 
-/* section feature */
-/* section specialization */
+/* section  */
+
+.specialization-title,
+.team-title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-transform: capitalize;
+}
+
+.list-title,
+.team-title,
+.portfolio-title {
+ font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
 /* section our team */
-.section-team {
+
+.team {
   background-color: var(--Subtle-backgrounds-color);
 }
 
@@ -129,6 +150,12 @@ body {
 
 .logo-footer {
   color: var(--backgrounds-Light-color);
+  font-family: "Raleway";
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
 .footer-summary {
@@ -137,14 +164,16 @@ body {
 
 /* portfolio style */
 
- .descriptions {
+.descriptions {
   background-color: var(--Focused-link-color);
-  color: #f4f4fd;
+  color: var(--backgrounds-Light-color);
 }
 
 .butoon-filter {
   background-color: var(--backgrounds-Light-color);
   color: var(--Focused-link-color);
+  font-weight: 600;
+  letter-spacing: 0.04em;
 }
 
 .butoon-filter:hover,
@@ -153,7 +182,6 @@ body {
   color: var(--bg-white-color);
 }
 
-.text {
+.portfolio-type {
 	color: var(--Body-text-color);
 }
-
