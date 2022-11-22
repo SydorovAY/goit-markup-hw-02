@@ -37,6 +37,15 @@ body {
   list-style: none;
 }
 
+.link {
+  text-decoration: none;
+}
+
+.title,
+.nav-link {
+  color: var(--Headings-color);
+  font-weight: 600;
+}
 /* header */
 
 .logo {
@@ -53,11 +62,6 @@ body {
   color: var(--Focused-link-color);
 }
 
-.nav-link {
-  font-weight: 600;
-  color: var(--Headings-color);
-}
-
 .nav-link:hover {
   color: var(--Body-text-color);
 }
@@ -66,7 +70,7 @@ body {
   color: var(--Focused-link-color);
 }
 
-.nav-link.current {
+.current {
   color: var(--Focused-link-color);
 }
 
@@ -89,7 +93,6 @@ body {
 
 .hero .title {
   color: var(--bg-white-color);
-  font-weight: 600;
   font-size: 56px;
   line-height: 1.07;
 }
@@ -97,6 +100,9 @@ body {
 .button-order {
   background-color: var(--Focused-link-color);
   color: var(--bg-white-color);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.04em;
   cursor: pointer;
@@ -111,18 +117,12 @@ body {
   background-color: var(--button-active-color);
 }
 
-/* sections */
-
-.title {
-  color: var(--Headings-color);
-}
-
 /* section  */
 .feature-title,
 .portfolio-primary-title,
 .portfolio-filter-title,
 .portfolio-img-title {
-	opacity: 0.0;
+  opacity: 0;
 }
 
 .specialization-title,
@@ -135,7 +135,6 @@ body {
 .list-title,
 .team-title,
 .portfolio-title {
- font-weight: 600;
   font-size: 20px;
   line-height: 1.2;
 }
@@ -153,12 +152,6 @@ body {
 
 .logo-footer {
   color: var(--backgrounds-Light-color);
-  font-family: "Raleway";
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.67;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
 }
 
 .footer-summary {
@@ -167,11 +160,13 @@ body {
 
 /* portfolio style */
 
-
 .butoon-filter {
   background-color: var(--backgrounds-Light-color);
   color: var(--Focused-link-color);
+  font-style: normal;
   font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
 }
@@ -183,5 +178,5 @@ body {
 }
 
 .portfolio-type {
-	color: var(--Body-text-color);
+  color: var(--Body-text-color);
 }
