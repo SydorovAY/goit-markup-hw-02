@@ -118,6 +118,12 @@ body {
 }
 
 /* section  */
+.feature-title,
+.portfolio-primary-title,
+.portfolio-filter-title,
+.portfolio-img-title {
+	opacity: 0.0;
+}
 
 .specialization-title,
 .team-title {
@@ -160,6 +166,7 @@ body {
 }
 
 /* portfolio style */
+
 
 .butoon-filter {
   background-color: var(--backgrounds-Light-color);
